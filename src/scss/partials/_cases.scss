@@ -1,0 +1,29 @@
+.cases {
+  &__title {
+    @extend .section_title;
+  }
+
+  &__item {
+    display: flex;
+
+    &_inverse {
+      & > div:first-child {
+        order: 1;
+      }
+
+      & > div:last-child {
+        order: 0;
+      }
+    }
+
+    &-description {
+      width: 50%;
+      padding: 0 10px;
+    }
+
+    &-illustrations {
+      width: 50%;
+      padding: 0 10px;
+    }
+  }
+}

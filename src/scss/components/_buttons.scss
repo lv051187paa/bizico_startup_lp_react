@@ -1,0 +1,14 @@
+%button {
+    color: map-get($color, button );
+    background: map-get($color, accent);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 55px;
+    transition: $transition;
+    cursor: pointer;
+
+    &:hover{
+        background: darken(map-get($color, accent), 5%);
+        transition: $transition;
+    }
+}

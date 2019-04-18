@@ -1,0 +1,24 @@
+{
+  "header": {
+    "title": "BIZICO - WHERE YOUR IDEAS BECOME REALITY",
+    "description": "We are a team of experienced software engineers that enjoy working with you and transforming your ideas into software solutions for your European and US customers"
+  },
+  "competencies": {
+    "title": "WHAT DO WE DO?",
+    "description": "DELIVERING VALUE AND QUALITY WITH DEDICATED SOFTWARE DEVELOPMENT TEAMS",
+    "items": [
+      {
+        "icon": "",
+        "text": "Working together in teams with our senior engineers you are always in direct control of the scope, time, budget, and quality of your project."
+      },
+      {
+        "icon": "",
+        "text": "You are able to focus on your solution requirements while we take care of the development and testing."
+      },
+      {
+        "icon": "",
+        "text": "It is our responsibility to deliver quality results in the shortest period of time to you and your clients."
+      }
+    ]
+  }
+}

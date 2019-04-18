@@ -1,0 +1,17 @@
+.about {
+  background: map-get($color, accent) !important;
+
+  &__title {
+    @extend .section_title;
+    color: map-get($color, button);
+  }
+
+  &__history {
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      color: map-get($color, button);
+    }
+
+  }
+}

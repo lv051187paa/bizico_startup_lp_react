@@ -1,0 +1,25 @@
+.competencies{
+
+    &__title{
+        @extend .section_title;
+    }
+
+    &__subtitle{
+        @extend .section_title;
+        color: map-get($color, title);
+        font-size: 40px;
+        max-width: 1100px;
+        margin-top: 20px;
+    }
+
+    &__description{
+        @extend %section_description;
+        color: map-get($color, accent);
+        max-width: 990px;
+        
+        & p{
+            margin-top: 10px;
+        }
+
+    }
+}

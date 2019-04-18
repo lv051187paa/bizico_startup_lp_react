@@ -1,0 +1,33 @@
+$breakpoints: (
+  pc: (
+    min: 1025px,
+    width: 1400px,
+  ),
+  tablet: (
+    min: 577px,
+    max: 1100px,
+    width: 960px
+  ),
+  mobile: (
+    max: 768px,
+    width: 540px
+  ),
+);
+
+.container {
+  max-width: map-deep-get($breakpoints, pc, width);;
+  margin: auto;
+  padding: 0 50px;
+}
+
+@each $breakpoint, $params in $breakpoints{
+  $minWidth: map-deep-get($breakpoints, $breakpoint, min);
+  $container: map-deep-get($breakpoints, $breakpoint, width);
+  $maxWidth: map-deep-get($breakpoints, $breakpoint, max);
+  @media screen and (max-width: $maxWidth){
+    .container {
+      max-width: $container;
+      margin: auto;
+    }
+  }
+}

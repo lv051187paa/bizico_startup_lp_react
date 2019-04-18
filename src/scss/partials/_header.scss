@@ -1,0 +1,35 @@
+.header {
+
+    padding: 100px 0 285px;
+    background: url('/img/BG.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+
+    &__offer{
+       &-title{
+           @extend .section_title;
+           max-width: 760px;
+           margin-top: 270px;
+       }
+
+       &-description{
+           @extend %section_description;
+           margin-top: 55px;
+       }
+    }
+
+    &__info{
+
+        margin-top: 35px;
+
+        &-input{
+            @extend %input;
+            width: 660px;
+        }
+
+        &-action{
+            @extend %button;
+            margin-left: 30px;
+        }
+    }
+}
