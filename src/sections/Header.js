@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Logo from "../img/logo.svg";
+import logo from "../img/logo.svg";
 import SectionTitle from "../components/SectionTitle";
 import { ContentContext } from "../context";
 
@@ -9,7 +9,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <a href="/">
-          <Logo />
+          <img src={logo} alt="bizico logo" />
         </a>
         <div className="header__offer">
           <SectionTitle content={header.title} className="header__offer-title" />

@@ -27,7 +27,7 @@ $fonts: (
     @each $font_types, $properties in $params{
         @font-face {
             font-family: $font;
-            src: url('/fonts/#{map-get($properties, file)}');
+            src: url('../fonts/#{map-get($properties, file)}');
             font-weight: map-get($properties, weight);
           }
       }

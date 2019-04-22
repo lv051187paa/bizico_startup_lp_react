@@ -1,14 +1,15 @@
 import React, { Component, Fragment } from "react";
-import { Header, Competencies } from "./sections";
-
+import { Header, Competencies, Advantages, About, Cases } from "./sections";
 
 class App extends Component {
   render() {
-    // console.log(content);
     return (
       <Fragment>
         <Header />
         <Competencies />
+        <Advantages />
+        <About />
+        <Cases />
       </Fragment>
     );
   }

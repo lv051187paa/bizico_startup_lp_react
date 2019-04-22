@@ -1,5 +1,5 @@
 .about {
-  background: map-get($color, accent) !important;
+  background: map-get($color, title) !important;
 
   &__title {
     @extend .section_title;
@@ -11,7 +11,71 @@
       display: flex;
       flex-wrap: wrap;
       color: map-get($color, button);
+      justify-content: space-around;
+      position: relative;
+      margin-top: 25px;
+
+      &:before{
+        @include center_y(-12px);
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background: map-get($color, button);
+      }
     }
 
+    &-image{
+      position: absolute;
+      @include center_total(-50px, -10px);
+    }
+
+    &-item {
+      max-width: 18%;
+      text-align: center;
+      padding: 0 10px;
+      font-size: 15px;
+      position: relative;
+
+      &:before {
+        @include center_x();
+        content: "";
+        background: url("./../img/mark.svg") no-repeat;
+        width: 16px;
+        height: 17px;
+        position: absolute;
+      }
+
+      &:after {
+        @include center_x();
+        content: "";
+        position: absolute;
+        height: 80px;
+        width: 2px;
+        background: map-get($color, button);
+      }
+
+      &.top {
+        margin-bottom: 110px;
+        &:before {
+          top: calc(100% + 10px);
+        }
+
+        &:after{
+          top: calc(100% + 25px);
+        }
+      }
+
+      &.bottom {
+        margin-top: 110px;
+        &:before {
+          bottom: calc(100% + 17px);
+        }
+
+        &:after{
+          bottom: calc(100% + 34px);
+        }
+      }
+    }
   }
 }

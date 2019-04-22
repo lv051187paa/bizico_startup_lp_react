@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./scss/style.scss";
+import "./scss/fonts.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import {ContentContext} from './context';

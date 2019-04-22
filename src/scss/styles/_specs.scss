@@ -1,4 +1,4 @@
-$sections: competencies, advantages, cases;
+$sections: cases;
 $i: 1;
 @each $section in $sections {
   @if $i%2 > 0 {

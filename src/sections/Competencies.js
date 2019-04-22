@@ -1,12 +1,13 @@
 import React, { useContext, useRef, useEffect } from "react";
 
 import SectionTitle from "../components/SectionTitle";
+import CompetenciesItem from "../components/CompetenciesItem";
 import { ContentContext } from "../context";
-import Lightulb from "../img/light_bulb.svg";
+import {ReactComponent as Lightulb} from "../img/light_bulb.svg";
 import LazyLinePainter from "lazy-line-painter";
 
 const Competencies = () => {
-  const { competencies } = useContext(ContentContext);
+  const { competencies, srcPath } = useContext(ContentContext);
   useEffect(() => {
     const config = {
         ease: "easeLinear",
@@ -16,7 +17,7 @@ const Competencies = () => {
         strokeCap: "square",
         repeat: -1
       };
-      const animation = new LazyLinePainter(svg.current.querySelector('svg'), config);
+      const animation = new LazyLinePainter(svg.current, config);
       animation.paint(); 
   })
   const svg = useRef(null);
@@ -24,8 +25,8 @@ const Competencies = () => {
   return (
     <section className="competencies">
       <div className="container">
-        <div ref={svg} style={{display: 'flex'}}>
-            <Lightulb  />
+        <div style={{display: 'flex'}}>
+            <Lightulb  ref={svg}/>
             <SectionTitle content={competencies.title} />
         </div>
         
@@ -33,20 +34,8 @@ const Competencies = () => {
         <p className="competencies__subtitle">
         {competencies.description}
         </p>
-        <div className="competencies__description">
-          <p>
-            Working together in teams with our senior engineers you are always
-            in direct control of the scope, time, budget, and quality of your
-            project.
-          </p>
-          <p>
-            You are able to focus on your solution requirements while we take
-            care of the development and testing.
-          </p>
-          <p>
-            It is our responsibility to deliver quality results in the shortest
-            period of time to you and your clients.
-          </p>
+        <div className="competencies__list">
+          {competencies.items.map(item => <CompetenciesItem key={item.id} path={srcPath} content={item.text} icon={item.icon} />)}
         </div>
       </div>
     </section>
