@@ -1,11 +1,11 @@
 import React from "react";
 
-import images from '../img';
+import {blocks} from '../img';
 
 const CompetenciesItem = ({ icon, content }) => {
   return (
     <div className="competencies__item">
-      <img src={images[icon]} alt={icon} />
+      <img src={blocks[icon]} alt={icon} />
       <p>{content}</p>
     </div>
   );

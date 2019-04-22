@@ -1,14 +1,20 @@
 import React from "react";
+import {flags} from '../img';
+import LocationIcon from '../img/location.svg';
+import SolutionsIcon from '../img/solutions.svg';
 
-const CaseItem = ({ className, caseItem }) => {
+const CaseItem = ({className, caseItem}) => {
   const technologies = Object.entries(caseItem.technologies);
   return (
     <div className={`${className} cases__item`}>
       <div className="cases__item-description">
-        <div className="cases__item-params">
-          <span className="cases__item-title">Location: </span>
-          <span className="cases__item-text">{caseItem.location} </span>
-          <img src="#" alt="flag" />
+        <div className="cases__item-head">
+          <div className="cases__item-params ">
+            <span className="cases__item-title location">Location: </span>
+            <span className="cases__item-text">{caseItem.location} </span>
+            <img src={flags[caseItem.location.toLowerCase()]} alt="flag"/>
+          </div>
+          <p className="cases__item-number">Case #{caseItem.id}</p>
         </div>
         <div className="cases__item-params">
           <span className="cases__item-title idea">Idea: </span>
@@ -28,7 +34,7 @@ const CaseItem = ({ className, caseItem }) => {
           ))}
         </div>
       </div>
-      <div className="cases__item-illustrations" />
+      <div className="cases__item-illustrations"/>
     </div>
   );
 };

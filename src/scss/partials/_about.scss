@@ -16,7 +16,7 @@
       margin-top: 25px;
 
       &:before{
-        @include center_y(-12px);
+        @include center_y(-6px);
         content: '';
         position: absolute;
         width: 100%;
@@ -27,7 +27,7 @@
 
     &-image{
       position: absolute;
-      @include center_total(-50px, -10px);
+      @include center_total(-3px, -10px);
     }
 
     &-item {
@@ -36,6 +36,7 @@
       padding: 0 10px;
       font-size: 15px;
       position: relative;
+      width: 15%;
 
       &:before {
         @include center_x();

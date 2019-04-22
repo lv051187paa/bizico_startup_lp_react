@@ -81,39 +81,39 @@
       },
       {
         "id": "2",
-        "text": "Experience helps you to save your time and money"
-      },
-      {
-        "id": "3",
-        "text": "Quick feedback is a part of our corporate culture"
-      },
-      {
-        "id": "4",
-        "text": "Our reputation and high quality service are our main values"
-      },
-      {
-        "id": "5",
-        "text": "90% of employees have higher education"
-      },
-      {
-        "id": "6",
-        "text": "European culture and mentality"
-      },
-      {
-        "id": "7",
-        "text": "Understand and help solve client’s problems"
-      },
-      {
-        "id": "8",
         "text": "50+ team members"
       },
       {
-        "id": "9",
+        "id": "3",
+        "text": "90% of employees have higher education"
+      },
+      {
+        "id": "4",
         "text": "Upper-Intermediate English level"
       },
       {
-        "id": "10",
+        "id": "5",
+        "text": "Our reputation and high quality service are our main values"
+      },
+      {
+        "id": "6",
+        "text": "Quick feedback is a part of our corporate culture"
+      },
+      {
+        "id": "7",
         "text": "Ukraine is one of the top countries for software development"
+      },
+      {
+        "id": "8",
+        "text": "European culture and mentality"
+      },
+      {
+        "id": "9",
+        "text": "Experience helps you to save your time and money"
+      },
+      {
+        "id": "10",
+        "text": "Understand and help solve client’s problems"
       }
       
     ]
@@ -149,8 +149,7 @@
       {
         "id": "3",
         "location": "USA",
-        "idea": "Create a mobile app that provides different selections to people who enjoy nightlife. Users choose the coolest bars to visit by viewing their details, receive discounts and free Uber rides home. It is also possible to pay for orders through the app.",
-        "venues": "Venues, for their part, can advertise themselves and let the users know about additional discounts. It allows a bar representative to  know visitors better by collecting and displaying statistics of their orders.",
+        "idea": "Create a mobile app that provides different selections to people who enjoy nightlife. Users choose the coolest bars to visit by viewing their details, receive discounts and free Uber rides home. It is also possible to pay for orders through the app. Venues, for their part, can advertise themselves and let the users know about additional discounts. It allows a bar representative to  know visitors better by collecting and displaying statistics of their orders.",
         "solutions": "Create IOS and Android applications",
         "technologies": {
           "Backend": "Node.js, Express.js, bookshelf.js, knex.js, Microservices, GraphQL, REST, PostgreSQL, Redis",

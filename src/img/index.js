@@ -8,8 +8,10 @@ import DIRECT from "./DIRECT.svg";
 import NEW_technology from "./NEW_technology.svg";
 import TECHNICAL from "./TECHNICAL.svg";
 import FOCUS from "./FOCUS.svg";
+import usa from "./usa.svg";
+import germany from "./germany.svg";
 
-export default {
+export const blocks = {
   thumb,
   pc,
   balance,
@@ -19,5 +21,11 @@ export default {
   NEW_technology,
   TECHNICAL,
   TRANSPARENCY,
-  FOCUS
+  FOCUS,
+
 };
+
+export const flags = {
+  usa,
+  germany,
+}
