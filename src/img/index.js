@@ -10,6 +10,10 @@ import TECHNICAL from "./TECHNICAL.svg";
 import FOCUS from "./FOCUS.svg";
 import usa from "./usa.svg";
 import germany from "./germany.svg";
+import requirements from "./requirements.svg";
+import ready from "./ready.svg";
+import estimation from "./estimation.svg";
+import execution from "./execution.svg";
 
 export const blocks = {
   thumb,
@@ -22,7 +26,10 @@ export const blocks = {
   TECHNICAL,
   TRANSPARENCY,
   FOCUS,
-
+  requirements,
+  ready,
+  estimation,
+  execution,
 };
 
 export const flags = {

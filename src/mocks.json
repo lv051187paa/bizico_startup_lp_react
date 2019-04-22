@@ -161,5 +161,90 @@
         }
       }
     ]
+  },
+  "workflow": {
+    "title": "WHY WORK WITH US?",
+    "items": [
+      {
+        "id": "1",
+        "title": "REQUIREMENTS DEFINITION",
+        "icon": "",
+        "content": [
+          {
+            "id": "1",
+            "text": "You come up with an idea. We implement it."
+          },
+          {
+            "id": "2",
+            "text": "Your idea gets transformed into technical requirements and documentation."
+          },
+          {
+            "id": "3",
+            "text": "We’ll schedule a meeting. It’s important for you to know who you are trusting with your idea."
+          },
+          {
+            "id": "4",
+            "text": "You get a technical consultation on how to develop it further."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "GETTING READY TO START",
+        "icon": "",
+        "content": [
+          {
+            "id": "1",
+            "text": "Developers team led by PM starts working on the project."
+          },
+          {
+            "id": "2",
+            "text": "Meanwhile you continue developing  other aspects of your business."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "ESTIMATION PROCESS",
+        "icon": "",
+        "content": [
+          {
+            "id": "1",
+            "text": "Our team estimates your project. You get clear understanding of expenses and timelines."
+          },
+          {
+            "id": "2",
+            "text": "You receive your first project prototype."
+          },
+          {
+            "id": "3",
+            "text": "We coordinate our action plan and set a release date."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "EXECUTION AND DELIVERY",
+        "icon": "",
+        "content": [
+          {
+            "id": "1",
+            "text": "Account manager keeps you in the loop about the developing process."
+          },
+          {
+            "id": "2",
+            "text": "You have regular meetings with the team. QA department starts working on your project."
+          },
+          {
+            "id": "3",
+            "text": "Release date comes and your idea starts working in real time."
+          },
+          {
+            "id": "4",
+            "text": "Bizico team continues to support your project."
+          }
+        ]
+      }
+    ]
   }
 }
