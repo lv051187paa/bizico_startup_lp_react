@@ -1,0 +1,50 @@
+.contacts{
+  &__title{
+    text-align: center;
+    position: relative;
+
+    &:before{
+      @include center_x();
+      content: '';
+      height: 1px;
+      width: 720px;
+      background: map_get($color, accent);
+      bottom: -15px;
+      position: absolute;
+    }
+  }
+
+  &__list{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  &__employee{
+    color: map_get($color, title);
+
+    &:not(:last-child){
+      margin-right: 50px;
+    }
+
+    &-photo{
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+    &-socials{
+      position: absolute;
+      display: flex;
+      bottom: 0;
+      right: 0;
+    }
+
+    & h4{
+      font-size: 30px;
+    }
+
+    & p{
+      font-size: 16px;
+    }
+  }
+}

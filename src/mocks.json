@@ -246,5 +246,66 @@
         ]
       }
     ]
+  },
+  "contacts": {
+    "title": "GET IN TOUCH",
+    "employees": [
+      {
+        "id": "1",
+        "name": "Ivan Barberus",
+        "photo": "photo",
+        "position": "Sales manager in chief",
+        "socials": [
+          {
+            "id": "1",
+            "name": "linkedln",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Ivan Barberus",
+        "photo": "photo",
+        "position": "Sales manager in chief",
+        "socials": [
+          {
+            "id": "1",
+            "name": "linkedln",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "id": "3 ",
+        "name": "Ivan Barberus",
+        "photo": "photo",
+        "position": "Sales manager in chief",
+        "socials": [
+          {
+            "id": "1",
+            "name": "linkedln",
+            "link": "#"
+          }
+        ]
+      }
+    ],
+    "address": [
+      {
+        "country": "POLAND",
+        "phone": "+48 883 332 342",
+        "address": "GROW Holding Spz.o.o., \\nul. Francizka Klimczaka 8A. lok.69. \\n02-797 Warszawa, Poland"
+      },
+      {
+        "country": "UKRAINE",
+        "phone": "+38 050 678 5686",
+        "address": "Holovna str 243  \\n58000 Chernivtsi, Ukraine",
+        "email": "info@bizico.com"
+      },
+      {
+        "country": "GERMANY",
+        "email": "christian.kuhr@bizico.com"
+      }
+    ]
   }
 }

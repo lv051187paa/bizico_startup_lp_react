@@ -14,6 +14,8 @@ import requirements from "./requirements.svg";
 import ready from "./ready.svg";
 import estimation from "./estimation.svg";
 import execution from "./execution.svg";
+import photo from './photo.png';
+import linkedln from './linkedLn.svg';
 
 export const blocks = {
   thumb,
@@ -35,4 +37,12 @@ export const blocks = {
 export const flags = {
   usa,
   germany,
-}
+};
+
+export const photoes = {
+  photo
+};
+
+export const socialIcons = {
+  linkedln
+};

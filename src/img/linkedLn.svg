@@ -1,0 +1,7 @@
+<svg id="index" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="Path_327" data-name="Path 327" d="M32,30a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0H30a2,2,0,0,1,2,2Z" fill="#007bb5"/>
+  <g id="Group_413" data-name="Group 413" transform="translate(7 6)">
+    <path id="Path_328" data-name="Path 328" d="M0,5H4V19H0ZM13.5,5C10.708,5,10.228,6.018,10,7V5H6V19h4V11a1.8,1.8,0,0,1,2-2,1.8,1.8,0,0,1,2,2v8h4V12c0-4-.521-7-4.5-7Z" fill="#fff"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="2" cy="2" r="2" fill="#fff"/>
+  </g>
+</svg>

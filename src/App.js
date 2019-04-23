@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from "react";
-import {Header, Competencies, Advantages, About, Cases, Workflow} from "./sections";
+import {Header, Competencies, Advantages, About, Cases, Workflow, Contacts} from "./sections";
 
 class App extends Component {
   render() {
@@ -11,6 +11,7 @@ class App extends Component {
         <About/>
         <Cases/>
         <Workflow/>
+        <Contacts />
       </Fragment>
     );
   }
