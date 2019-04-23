@@ -21,14 +21,14 @@
     &__info{
 
         margin-top: 35px;
+        display: flex;
 
         &-input{
-            @extend %input;
+
             width: 660px;
         }
 
         &-action{
-            @extend %button;
             margin-left: 30px;
         }
     }

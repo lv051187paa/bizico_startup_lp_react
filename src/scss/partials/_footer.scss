@@ -1,0 +1,10 @@
+footer {
+  padding: 20px;
+  text-align: center;
+  background: map-get($colorBg, footerBG);
+
+  & p{
+    font-size: 10px;
+    color: map_get($color, text);
+  }
+}

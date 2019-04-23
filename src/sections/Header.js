@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import logo from "../img/logo.svg";
 import SectionTitle from "../components/SectionTitle";
 import { ContentContext } from "../context";
+import SubscriptionForm from '../components/Forms/SubscriptionForm';
 
 const Header = () => {
   const { header } = useContext(ContentContext);
@@ -16,12 +17,7 @@ const Header = () => {
           <p className="description header__offer-description">{header.description}</p>
         </div>
         <div className="header__info">
-          <input
-            type="text"
-            className="input header__info-input"
-            placeholder="Enter you email here for more info"
-          />
-          <button className="button header__info-action">Get more info</button>
+          <SubscriptionForm formClass="header__info" />
         </div>
       </div>
     </header>

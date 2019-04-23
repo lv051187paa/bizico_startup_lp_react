@@ -1,4 +1,4 @@
-%button {
+.button {
     color: map-get($color, button );
     background: map-get($color, accent);
     text-transform: uppercase;

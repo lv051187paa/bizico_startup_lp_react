@@ -47,4 +47,41 @@
       font-size: 16px;
     }
   }
+
+  &__form{
+    text-align: center;
+    margin-top: 45px;
+  }
+
+  &__user-info{
+    display: flex;
+    justify-content: center;
+
+    & .input-wrapper:not(:last-child){
+      margin-right: 20px;
+    }
+  }
+
+  &__input{
+    width: 290px;
+
+
+  }
+
+  &__message{
+    @extend .input;
+    width: 600px;
+    height: 120px;
+    margin-top: 25px;
+    resize: none;
+  }
+
+  &__action{
+    width: 260px;
+    margin: 25px auto 0;
+
+    & button{
+      width: 100%;
+    }
+  }
 }

@@ -1,0 +1,26 @@
+.input{
+  &-error {
+    left: 30px;
+    top: -30px;
+    position: absolute;
+    z-index: -1;
+    background: map_get($color, accent);
+    color: map_get($color, button);
+    font-size: 14px;
+    padding: 5px 10px;
+    opacity: 0;
+    max-width: 200px;
+    text-align: center;
+
+    &.show{
+      top: -20px;
+      z-index: 99999;
+      opacity: 1;
+      transition: $transition;
+    }
+  }
+
+  &-wrapper {
+    position: relative;
+  }
+}
