@@ -33,7 +33,7 @@
     }
 
     &:hover {
-      @include item_border();
+      @extend %list_item;
     }
   }
 }

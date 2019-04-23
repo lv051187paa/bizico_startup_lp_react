@@ -6,10 +6,10 @@ import WorkfloewItem from '../components/WorkflowItem';
 const Workflow = () => {
   const { workflow } = useContext(ContentContext);
   return (
-    <section className="cases">
+    <section className="workflow">
       <div className="container">
         <SectionTitle content={workflow.title} />
-        <div className="cases__list">
+        <div className="workflow__list">
           {workflow.items.map(item => <WorkfloewItem key={item.id} item={item}/> )}
         </div>
       </div>

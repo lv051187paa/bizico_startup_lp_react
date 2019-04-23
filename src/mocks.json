@@ -168,7 +168,7 @@
       {
         "id": "1",
         "title": "REQUIREMENTS DEFINITION",
-        "icon": "",
+        "icon": "requirements",
         "content": [
           {
             "id": "1",
@@ -191,7 +191,7 @@
       {
         "id": "2",
         "title": "GETTING READY TO START",
-        "icon": "",
+        "icon": "ready",
         "content": [
           {
             "id": "1",
@@ -206,7 +206,7 @@
       {
         "id": "3",
         "title": "ESTIMATION PROCESS",
-        "icon": "",
+        "icon": "estimation",
         "content": [
           {
             "id": "1",
@@ -225,7 +225,7 @@
       {
         "id": "4",
         "title": "EXECUTION AND DELIVERY",
-        "icon": "",
+        "icon": "execution",
         "content": [
           {
             "id": "1",

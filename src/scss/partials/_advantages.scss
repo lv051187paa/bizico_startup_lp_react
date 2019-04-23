@@ -40,7 +40,7 @@
         }
 
         &:hover{
-            @include item_border();
+            @extend %list_item;
 
             & h4{
                 transform: translateX(0);
