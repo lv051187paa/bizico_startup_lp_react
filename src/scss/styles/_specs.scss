@@ -23,6 +23,10 @@ body{
   & *{
     box-sizing: border-box;
   }
+
+  &.modal-visible{
+    overflow: hidden;
+  }
 }
 
 h1,

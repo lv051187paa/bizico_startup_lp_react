@@ -1,10 +1,8 @@
-import React from 'react';
-
 // eslint-disable-next-line
 const urlRe = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
 // eslint-disable-next-line
 const emailRe = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
-const passwordRe = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@!#$%^&*()+=_])[@!#$%^&*()+=_0-9a-zA-Z]{6,}$/;
+// const passwordRe = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@!#$%^&*()+=_])[@!#$%^&*()+=_0-9a-zA-Z]{6,}$/;
 
 // export function password(value, allValues) {
 //   if (allValues.password !== allValues.confirmPassword) {

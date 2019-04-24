@@ -1,7 +1,5 @@
 import React from "react";
 import {flags} from '../img';
-import LocationIcon from '../img/location.svg';
-import SolutionsIcon from '../img/solutions.svg';
 
 const CaseItem = ({className, caseItem}) => {
   const technologies = Object.entries(caseItem.technologies);

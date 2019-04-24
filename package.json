@@ -69,6 +69,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "antd": "^3.16.5",
     "axios": "^0.18.0",
     "final-form": "^4.12.0",
     "node-sass": "^4.11.0",

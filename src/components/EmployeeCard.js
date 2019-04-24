@@ -9,7 +9,7 @@ const EmployeeCard = ({employee}) => {
         <img src={photoes[photo.toLowerCase()]} alt=""/>
         <div className="contacts__employee-socials">
           {socials.map(social => (
-            <a href={social.link}><img src={socialIcons[social.name.toLowerCase()]} alt=""/></a>
+            <a key={social.id} href={social.link}><img src={socialIcons[social.name.toLowerCase()]} alt=""/></a>
           ))}
         </div>
         {/**/}

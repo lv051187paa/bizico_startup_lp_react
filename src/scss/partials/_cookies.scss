@@ -1,0 +1,49 @@
+.cookies{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 25px 0;
+  background: map-get($colorBg, coockiesBG);
+  text-align: center;
+
+  & .close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+
+  & .container{
+    max-width: 1200px;
+  }
+
+  & h4{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  & p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 25px;
+  }
+
+  &__controls{
+    max-width: 590px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0;
+
+    & button{
+      width: 260px;
+    }
+
+    &-info{
+      background: transparent;
+      border: 1px solid map_get($color, accent);
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Form, Field} from 'react-final-form';
-import FeedbackInput from './formComponents/FeedbackInput'
+import {FormInput, FormMessage} from './formComponents/'
 import Button from './formComponents/Button';
 import {onFeedback} from '../../services/submit';
 import {required, composeValidators, email, minLength} from '../../services/validations';
@@ -11,10 +11,10 @@ const FeedbackForm = ({formClass}) => (
     render={({submitError, handleSubmit, values}) => (
       <form onSubmit={handleSubmit} className={formClass}>
         <div className="contacts__user-info">
-          <FeedbackInput name="Subject" className="contacts__input" validate={composeValidators(required, minLength(3))}/>
-          <FeedbackInput name="Email" className="contacts__input" validate={composeValidators(required, email)}/>
+          <FormInput name="Subject" className="contacts__input" />
+          <FormInput name="Email" className="contacts__input" validate={composeValidators(required, email)}/>
         </div>
-        <Field name="content" component="textarea" placeholder="Message" className="contacts__message" />
+        <FormMessage name="content" component="textarea" placeholder="Message" className="contacts__message" validate={composeValidators(required, minLength(3))}/>
           <div className="contacts__action">
             <Button title="Send"/>
           </div>

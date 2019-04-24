@@ -1,11 +1,11 @@
-import {api} from "../api/routes";
+import {api} from "../api";
 
-export const onEmailSave = async values => {
-  await api
+export const onEmailSave = values => {
+  api
     .post('/client', {...values})
 };
 
-export const onFeedback = async values => {
-  await api
+export const onFeedback = values => {
+  api
     .post('/send', {...values})
 };

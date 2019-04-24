@@ -6,6 +6,8 @@
     padding: 15px 55px;
     transition: $transition;
     cursor: pointer;
+    height: auto;
+    border: none;
 
     &:hover{
         background: darken(map-get($color, accent), 5%);
