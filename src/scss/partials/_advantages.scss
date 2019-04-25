@@ -1,71 +1,98 @@
 .advantages {
-    &__title{
-        @extend .section_title;
+  &__title {
+    @include set_media(mobile) {
+      padding: 0 50px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  &__item {
+    max-width: 250px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+    text-align: center;
+    transition: $transition;
+    padding: 20px 40px;
+    align-self: start;
+    @extend %list_item;
+
+    &:first-child {
+      @include set_media(mobile) {
+        min-width: 100%;
+      }
     }
 
-    &__list{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 30px;
+    @include set_media(large) {
+      max-width: 200px;
+      margin: 0 7px 25px;
+      flex-wrap: wrap;
+      padding: 20px;
     }
 
-    &__item{
-        max-width: 250px;
-        margin-right: 60px;
-        margin-bottom: 25px;
-        text-align: center;
+    @include set_media(mobile) {
+      max-width: calc(50% - 14px);
+      padding: 20px 5px;
+      align-self: stretch;
+    }
+
+    & img {
+      max-height: 60px;
+    }
+
+    & h4 {
+      font-size: 20px;
+      color: map-get($color, title);
+      font-weight: 600;
+      margin-top: 25px;
+      transform: translateX(10px);
+      transition: $transition;
+
+      @include set_media(large) {
+        transform: translateX(2px);
+      }
+
+      @include set_media(mobile) {
+        transform: translateX(0);
+        color: map-get($color, accent);
+        font-size: 0.9375rem;
+      }
+    }
+
+    & p {
+      font-size: 0.93rem;
+      font-weight: 300;
+      color: map-get($color, text);
+      margin-top: 5px;
+      transform: translateY(8px);
+      opacity: 0;
+      transition: $transition;
+
+      @include set_media(mobile) {
+        transform: translateY(0);
+        opacity: 1;
+        margin-top: 25px;
+      }
+    }
+
+    &:hover {
+
+
+      & h4 {
+        transform: translateX(0);
+        color: map-get($color, accent);
         transition: $transition;
-        padding: 20px 40px;
-        align-self: start;
+      }
 
-        @include set_media(large){
-            max-width: 200px;
-            margin: 0 7px 25px;
-            flex-wrap: wrap;
-            padding: 20px;
-        }
-
-        & img{
-            max-height: 60px;
-        }
-
-        & h4{
-            font-size: 20px;
-            color: map-get($color, title);
-            font-weight: 600;
-            margin-top: 25px;
-            transform: translateX(10px);
-            transition: $transition;
-
-            @include set_media(large){
-                transform: translateX(2px);
-            }
-        }
-
-        & p{
-            font-size: 0.93rem;
-            font-weight: 300;
-            color: map-get($color, text);
-            margin-top: 5px;
-            transform: translateY(8px);
-            opacity: 0;
-            transition: $transition;
-        }
-
-        &:hover{
-            @extend %list_item;
-
-            & h4{
-                transform: translateX(0);
-                color: map-get($color, accent);
-                transition: $transition;
-            }
-
-            & p{
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+      & p {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
+  }
 }

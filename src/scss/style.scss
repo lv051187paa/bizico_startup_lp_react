@@ -1,8 +1,9 @@
 @import '~normalize-scss/sass/normalize/import-now';
 
+@import './varialbles/variables';
 @import './functions/functions';
 @import './mixins/mixins';
-@import './varialbles/variables';
+
 @import './components/components';
 @import './styles/specs';
 @import './partials/partials';

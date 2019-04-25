@@ -8,7 +8,7 @@ const Workflow = () => {
   return (
     <section className="workflow">
       <div className="container">
-        <SectionTitle content={workflow.title} />
+        <SectionTitle content={workflow.title} className="workflow__title" />
         <div className="workflow__list">
           {workflow.items.map(item => <WorkfloewItem key={item.id} item={item}/> )}
         </div>

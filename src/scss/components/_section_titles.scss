@@ -3,4 +3,9 @@
   color: map-get($color, accent);
   text-transform: uppercase;
   font-weight: bold;
+
+  @include set_media(mobile) {
+    font-size: 1.875rem;
+    text-align: center;
+  }
 }

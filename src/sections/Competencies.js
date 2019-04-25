@@ -25,7 +25,7 @@ const Competencies = () => {
   return (
     <section className="competencies">
       <div className="container">
-        <div style={{display: 'flex'}}>
+        <div className="competencies__title">
             <Lightulb  ref={svg}/>
             <SectionTitle content={competencies.title} />
         </div>

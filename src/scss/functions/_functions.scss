@@ -1,7 +1,2 @@
-@function map-deep-get($map, $keys...) {
-    @each $key in $keys {
-      $map: map-get($map, $key);
-    }
-  
-    @return $map;
-  }
+@import './map_parse';
+@import './color_funcs';

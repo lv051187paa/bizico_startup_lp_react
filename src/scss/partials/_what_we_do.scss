@@ -1,7 +1,12 @@
 .competencies {
 
   &__title {
-    @extend .section_title;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include set_media(mobile){
+      justify-content: center;
+    }
   }
 
   &__subtitle {
@@ -14,12 +19,20 @@
     @include set_media(large){
       font-size: 2.2rem;
     }
+
+    @include set_media(mobile){
+      font-size: 1.15rem;
+    }
   }
 
   &__list {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+
+    @include set_media(mobile){
+      flex-wrap: wrap;
+    }
   }
 
   &__item {
@@ -31,6 +44,15 @@
     font-weight: 300;
     font-size: 1.5rem;
     transition: $transition;
+    @extend %list_item;
+
+    &:first-child{
+      @include set_media(mobile){
+        min-width: 100%;
+        padding: 5px 14px;
+        margin-bottom: 15px;
+      }
+    }
 
     @include set_media(large){
       font-size: 1.25rem;
@@ -39,13 +61,24 @@
       margin: auto;
     }
 
+    @include set_media(mobile){
+      padding: 20px 10px;
+      width: 50%;
+    }
+
+    & img{
+      @include set_media(mobile){
+        max-width: 55px;
+      }
+    }
+
 
     & p {
       margin-top: 20px;
-    }
 
-    &:hover {
-      @extend %list_item;
+      @include set_media(mobile){
+        font-size: 0.75rem;
+      }
     }
   }
 }

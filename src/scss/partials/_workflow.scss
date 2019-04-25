@@ -1,8 +1,16 @@
 .workflow {
+
+  &__title{
+    @include set_media(mobile){
+      padding: 0 50px;
+    }
+  }
+
   &__list {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    flex-wrap: wrap;
   }
 
   &__item {

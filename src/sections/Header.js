@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container">
-        <a href="/">
+        <a href="/" className="header__logo">
           <img src={logo} alt="bizico logo" />
         </a>
         <div className="header__offer">

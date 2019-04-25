@@ -6,10 +6,12 @@ import "./scss/fonts.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
+import { render } from 'react-snapshot';
+
 import ContentProvider from './context/ContentProvider';
 
 
-ReactDOM.render(
+render(
   <ContentProvider>
     <App/>
   </ContentProvider>,

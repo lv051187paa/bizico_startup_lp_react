@@ -15,6 +15,10 @@ $i: 1;
 
 section {
   padding: 35px 0;
+
+  @include set_media(mobile){
+    padding: 17px 0;
+  }
 }
 
 body{
@@ -64,4 +68,8 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+img{
+  max-width: 100%;
 }

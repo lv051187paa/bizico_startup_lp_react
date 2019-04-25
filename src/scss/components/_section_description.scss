@@ -3,4 +3,8 @@
     color: map-get($color, title);
     max-width: 945px;
     font-weight: 300;
+
+    @include set_media(mobile){
+        font-size: 1.25rem;
+    }
 }

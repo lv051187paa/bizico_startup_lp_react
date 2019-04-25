@@ -8,7 +8,7 @@ const Advantages = () => {
   return (
     <section className="advantages">
       <div className="container">
-        <SectionTitle content={advantages.title} />
+        <SectionTitle content={advantages.title} className="advantages__title" />
         <div className="advantages__list" >
             {advantages.items.map(item => <AdvantagesItem key={item.id} title={item.title} content={item.text} icon={item.icon} />)}
         </div>
