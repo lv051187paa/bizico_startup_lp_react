@@ -8,10 +8,9 @@
 
   &__history {
 
-    display: flex;
-    flex-wrap: wrap;
+
     color: map-get($color, button);
-    justify-content: space-around;
+
     position: relative;
     margin-top: 25px;
 
@@ -42,10 +41,18 @@
     }
 
     &-list{
-      height: 100px;
-      opacity: 0;
-      transform: translateY(35px);
-      transition: $transition;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      @include set_media(mobile){
+        height: 100px;
+        opacity: 0;
+        transform: translateY(35px);
+        transition: $transition;
+      }
+
     }
 
 

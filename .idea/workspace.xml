@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f7641d-491a-490e-a764-f3932e6897b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Forms/Notification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Forms/FeedbackForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/FeedbackForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_form_error.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_form_error.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_list_items.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_list_items.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_section_titles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section_titles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/partials/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/partials/_workflow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/partials/_workflow.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/submit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/submit.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,51 +17,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/partials/_contacts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="243" column="19" selection-start-line="243" selection-start-column="19" selection-end-line="243" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Forms/FeedbackForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/services/submit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Forms/Notification.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -120,14 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/context/ContentProvider.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/varialbles/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -210,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/sections/Advantages.js" />
         <option value="$PROJECT_DIR$/src/scss/partials/_advantages.scss" />
         <option value="$PROJECT_DIR$/src/sections/Workflow.js" />
-        <option value="$PROJECT_DIR$/src/scss/partials/_about.scss" />
         <option value="$PROJECT_DIR$/src/scss/components/_section_titles.scss" />
         <option value="$PROJECT_DIR$/src/scss/partials/_workflow.scss" />
         <option value="$PROJECT_DIR$/src/scss/components/_form_error.scss" />
@@ -222,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/sections/About.js" />
         <option value="$PROJECT_DIR$/src/components/Forms/Notification.js" />
         <option value="$PROJECT_DIR$/src/services/submit.js" />
+        <option value="$PROJECT_DIR$/src/scss/partials/_about.scss" />
       </list>
     </option>
   </component>
@@ -254,14 +194,14 @@
               <item name="bizico_startup_lp_react" type="b2602c69:ProjectViewProjectNode" />
               <item name="bizico_startup_lp_react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bizico_startup_lp_react" type="b2602c69:ProjectViewProjectNode" />
               <item name="bizico_startup_lp_react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Forms" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="varialbles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bizico_startup_lp_react" type="b2602c69:ProjectViewProjectNode" />
@@ -352,12 +292,12 @@
       <workItem from="1556089429240" duration="3898000" />
       <workItem from="1556097012286" duration="26665000" />
       <workItem from="1556178957390" duration="26110000" />
-      <workItem from="1556224046756" duration="9960000" />
+      <workItem from="1556224046756" duration="10549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99505000" />
+    <option name="totallyTimeSpent" value="100094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/components/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/styles/_specs.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -647,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/varialbles/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/context/ContentProvider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -681,24 +607,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="166" column="21" selection-start-line="166" selection-start-column="21" selection-end-line="166" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/components/_form_error.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/components/_section_titles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -716,13 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/partials/_contacts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="243" column="19" selection-start-line="243" selection-start-column="19" selection-end-line="243" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -770,6 +675,41 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/partials/_contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="243" column="19" selection-start-line="243" selection-start-column="19" selection-end-line="243" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_section_titles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/components/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/varialbles/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
         </state>
       </provider>
     </entry>
