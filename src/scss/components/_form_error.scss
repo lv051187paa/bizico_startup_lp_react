@@ -12,6 +12,12 @@
     max-width: 200px;
     text-align: center;
 
+    @include set_media(mobile){
+      bottom: calc(100% - 35px) !important;
+      left: auto;
+      right: 5px;
+    }
+
     & + textarea{
       position: relative;
     }

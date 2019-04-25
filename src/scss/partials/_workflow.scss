@@ -23,6 +23,11 @@
       max-width: 200px;
     }
 
+    @include set_media(mobile){
+      width: calc(50% - 8px);
+      margin: 0 2px 15px;
+    }
+
     & img {
       max-height: 95px;
 
@@ -33,19 +38,26 @@
 
     & h4 {
       font-size: 1.87rem;
-      font-weight: 600;
+      font-weight: 300;
       margin-top: 20px;
       padding: 0 30px;
+      color: get_color(title );
 
       @include set_media(large){
         font-size: 1.25rem;
         padding: 0 5px;
+      }
+
+      @include set_media(mobile){
+        font-size: 0.945rem;
+        color: get_color(accent);
       }
     }
 
     &-content {
       padding: 15px 30px;
       height: calc(100% - 185px);
+      @extend %list_item;
       transition: $transition;
 
       @include set_media(large){
@@ -53,8 +65,10 @@
         height: calc(100% - 135px);
       }
 
-      &:hover {
-        @extend %list_item;
+      @include set_media(mobile){
+        padding-left: 5px;
+        padding-right: 5px;
+
       }
 
       & p {

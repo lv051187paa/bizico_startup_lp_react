@@ -29,7 +29,8 @@
 
       @include set_media(mobile) {
         background: url('../img/about_bg.svg');
-        width: 10px;
+        //width: 10px;
+        width: 0;
         height: 100%;
         @include center_x();
         top: 0;
@@ -40,14 +41,26 @@
       justify-content: space-between;
     }
 
+    &-list{
+      height: 100px;
+      opacity: 0;
+      transform: translateY(35px);
+      transition: $transition;
+    }
+
 
     &-image {
       position: absolute;
       @include center_total(-3px, -10px);
+      transition: $transition;
 
       @include set_media(large) {
         max-width: 140px;
         @include center_total(-3px, -17px);
+      }
+
+      @include set_media(mobile) {
+        z-index: 999999;
       }
     }
 
@@ -150,19 +163,29 @@
 
     .about__history {
 
+      &-list{
+        height: 310px;
+        opacity: 1;
+        transform: translateY(0);
+        transition: $transition;
+      }
+
       &-image {
 
+        transition: $transition;
+
         @include set_media(mobile) {
-          width: 50px;
-          height: 40px;
+          max-width: 50px;
           top: -40px;
-          right: -18px;
-          left: auto;
+          left: calc(90%);
         }
       }
 
-      &-item {
-
+      &:before {
+        @include set_media(mobile){
+          width: 10px;
+          transition: $transition;
+        }
       }
     }
   }

@@ -1,6 +1,8 @@
-import {api} from "../api";
+import {api, interceptor} from "../api";
+import {showNotification} from "../components/Forms/Notification";
 
 export const onEmailSave = values => {
+  interceptor(() => showNotification('success'), () => showNotification('failed'));
   api
     .post('/client', {...values})
 };
