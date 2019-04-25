@@ -33,6 +33,7 @@ const CookiesWarn = ({showToggle}) => {
           className: 'ant-btn-cancel'
         }}
         okText="Accept"
+        width={700}
       >
         <CookiesText/>
       </Modal>

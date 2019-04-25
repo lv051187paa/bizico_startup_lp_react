@@ -5,17 +5,13 @@ import "./scss/style.scss";
 import "./scss/fonts.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { ContentContext } from './context';
-import content from "./mocks.json";
 
 import ContentProvider from './context/ContentProvider';
 
 
 ReactDOM.render(
   <ContentProvider>
-    <ContentContext.Provider value={content}>
-      <App/>
-    </ContentContext.Provider>
+    <App/>
   </ContentProvider>,
   document.getElementById( "root" )
 );

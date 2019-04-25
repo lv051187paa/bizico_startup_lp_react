@@ -13,9 +13,18 @@
     &__item{
         max-width: 250px;
         margin-right: 60px;
+        margin-bottom: 25px;
         text-align: center;
         transition: $transition;
         padding: 20px 40px;
+        align-self: start;
+
+        @include set_media(large){
+            max-width: 200px;
+            margin: 0 7px 25px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
 
         & img{
             max-height: 60px;
@@ -28,13 +37,18 @@
             margin-top: 25px;
             transform: translateX(10px);
             transition: $transition;
+
+            @include set_media(large){
+                transform: translateX(2px);
+            }
         }
 
         & p{
-            font-size: 15px;
+            font-size: 0.93rem;
             font-weight: 300;
             color: map-get($color, text);
             margin-top: 5px;
+            transform: translateY(8px);
             opacity: 0;
             transition: $transition;
         }
@@ -50,6 +64,7 @@
 
             & p{
                 opacity: 1;
+                transform: translateY(0);
             }
         }
     }

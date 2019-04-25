@@ -7,9 +7,13 @@
   &__subtitle {
     @extend .section_title;
     color: map-get($color, title);
-    font-size: 40px;
+    font-size: 2.5rem;
     max-width: 1100px;
     margin-top: 20px;
+
+    @include set_media(large){
+      font-size: 2.2rem;
+    }
   }
 
   &__list {
@@ -25,8 +29,16 @@
     margin: 0 35px;
     color: map-get($color, title);
     font-weight: 300;
-    font-size: 25px;
+    font-size: 1.5rem;
     transition: $transition;
+
+    @include set_media(large){
+      font-size: 1.25rem;
+      padding: 15px 30px;
+      max-width: 260px;
+      margin: auto;
+    }
+
 
     & p {
       margin-top: 20px;

@@ -2,7 +2,7 @@ import React, { useContext, useRef, useEffect } from "react";
 
 import SectionTitle from "../components/SectionTitle";
 import CompetenciesItem from "../components/CompetenciesItem";
-import { ContentContext } from "../context";
+import { ContentContext } from "../context/ContentProvider";
 import {ReactComponent as Lightulb} from "../img/light_bulb.svg";
 import LazyLinePainter from "lazy-line-painter";
 

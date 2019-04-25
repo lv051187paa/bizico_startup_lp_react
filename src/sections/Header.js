@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import logo from "../img/logo.svg";
 import SectionTitle from "../components/SectionTitle";
-import { ContentContext } from "../context";
+import { ContentContext } from "../context/ContentProvider";
 import SubscriptionForm from '../components/Forms/SubscriptionForm';
 
 const Header = () => {

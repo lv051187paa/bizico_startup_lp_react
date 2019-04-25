@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ContentContext } from "../context";
+import { ContentContext } from "../context/ContentProvider";
 import SectionTitle from "../components/SectionTitle";
 import AdvantagesItem from "../components/AdvantagesItem";
 

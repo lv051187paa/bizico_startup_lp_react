@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import SectionTitle from "../components/SectionTitle";
-import {ContentContext} from "../context";
+import {ContentContext} from "../context/ContentProvider";
 import EmployeeCard from '../components/EmployeeCard';
 import FeedbackForm from '../components/Forms/FeedbackForm';
 import ContactAddress from '../components/ContactAddress';

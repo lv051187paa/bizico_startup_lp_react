@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import SectionTitle from "../components/SectionTitle";
-import { ContentContext } from "../context";
+import { ContentContext } from "../context/ContentProvider";
 import WorkfloewItem from '../components/WorkflowItem';
 
 const Workflow = () => {

@@ -11,15 +11,28 @@
     max-width: 300px;
     color: map_get($color, title);
 
+    @include set_media(large){
+      max-width: 200px;
+    }
+
     & img {
       max-height: 95px;
+
+      @include set_media(large){
+        max-height: 65px;
+      }
     }
 
     & h4 {
-      font-size: 30px;
+      font-size: 1.87rem;
       font-weight: 600;
       margin-top: 20px;
       padding: 0 30px;
+
+      @include set_media(large){
+        font-size: 1.25rem;
+        padding: 0 5px;
+      }
     }
 
     &-content {
@@ -27,14 +40,23 @@
       height: calc(100% - 185px);
       transition: $transition;
 
+      @include set_media(large){
+        padding-bottom: 20px;
+        height: calc(100% - 135px);
+      }
+
       &:hover {
         @extend %list_item;
       }
 
       & p {
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 300;
         position: relative;
+
+        @include set_media(large){
+          font-size: 0.75rem;
+        }
 
         &:not(:first-child) {
           margin-top: 25px;

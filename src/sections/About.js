@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import SectionTitle from "../components/SectionTitle";
-import { ContentContext } from "../context";
+import { ContentContext } from "../context/ContentProvider";
 import MainImg from '../img/about_center.svg';
 
 const About = () => {

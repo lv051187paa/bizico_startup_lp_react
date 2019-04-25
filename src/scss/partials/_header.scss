@@ -24,8 +24,11 @@
         display: flex;
 
         &-input{
-
             width: 660px;
+
+            @include set_media(large){
+                width: 535px;
+            }
         }
 
         &-action{

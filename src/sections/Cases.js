@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import SectionTitle from "../components/SectionTitle";
 import CaseItem from "../components/CaseItem";
-import { ContentContext } from "../context";
+import { ContentContext } from "../context/ContentProvider";
 
 const Cases = () => {
   const { cases } = useContext(ContentContext);

@@ -15,3 +15,13 @@
     transition: $transition;
   }
 }
+
+.cookies-description{
+
+  & p{
+    font-size: 20px;
+    font-weight: 300;
+    color: map-get($color, text);
+    margin-top: 15px;
+  }
+}

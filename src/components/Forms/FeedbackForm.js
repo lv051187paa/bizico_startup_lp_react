@@ -1,5 +1,5 @@
 import React from 'react';
-import {Form, Field} from 'react-final-form';
+import {Form} from 'react-final-form';
 import {FormInput, FormMessage} from './formComponents/'
 import Button from './formComponents/Button';
 import {onFeedback} from '../../services/submit';
