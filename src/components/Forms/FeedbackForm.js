@@ -1,21 +1,12 @@
 import React from 'react';
 import {Form} from 'react-final-form';
-import {notification} from 'antd';
 import {FormInput, FormMessage} from './formComponents/'
 import Button from './formComponents/Button';
 import {onFeedback} from '../../services/submit';
 import {required, composeValidators, email, minLength} from '../../services/validations';
 
 const FeedbackForm = ({formClass}) => {
-//   const openNotification = () => {
-//     notification.open({
-//       message: 'Notification Title',
-//       description: 'This is the content of the notification. This is the content of the notification. This is the content of the notification.',
-//       onClick: () => {
-//         console.log('Notification Clicked!');
-//       },
-//     });
-//   };
+
   return (
     <Form
       onSubmit={onFeedback}

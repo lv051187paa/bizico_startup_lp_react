@@ -1,0 +1,27 @@
+.ant-btn{
+  @extend .button
+}
+
+.ant-btn-cancel{
+  @extend .cookies__controls-info;
+
+  & span{
+    color: map-get($color, accent);
+    transition: $transition;
+  }
+  
+  &:hover span{
+    color: #fff;
+    transition: $transition;
+  }
+}
+
+.cookies-description{
+
+  & p{
+    font-size: 20px;
+    font-weight: 300;
+    color: map-get($color, text);
+    margin-top: 15px;
+  }
+}

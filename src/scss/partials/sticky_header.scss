@@ -1,0 +1,24 @@
+.sticky-header{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: -70px;
+  z-index: 9999;
+  background: #fff;
+  padding: 15px 0;
+  box-shadow: $border;;
+  transition: $transition;
+
+  &.show{
+    top: 0;
+  }
+
+  & .container{
+    height: 100%;
+  }
+
+  & img{
+    max-height: 100%;
+    width: auto;
+  }
+}

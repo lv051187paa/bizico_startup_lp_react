@@ -1,6 +1,8 @@
-import React from 'react';
 import { notification } from 'antd';
 
-export const showNotification = (message) => (notification.open({
-  message
-}));
+export const showNotification = (message, icon) => {notification[icon]({
+  message,
+  style: {
+    marginTop: 50,
+  },
+})};

@@ -23,8 +23,13 @@
       max-width: 200px;
     }
 
-    @include set_media(mobile){
+    @include set_media(small_tablet){
       width: calc(50% - 8px);
+      max-width: 250px;
+      margin: 0 2px 40px;
+    }
+
+    @include set_media(mobile){
       margin: 0 2px 15px;
     }
 
@@ -48,8 +53,13 @@
         padding: 0 5px;
       }
 
+      @include set_media(small_tablet){
+        padding: 0 35px;
+      }
+
       @include set_media(mobile){
         font-size: 0.945rem;
+        padding: 0;
         color: get_color(accent);
       }
     }

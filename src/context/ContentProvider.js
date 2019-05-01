@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
-
 import axios from 'axios';
+
+import {Preloader} from '../components/Preloader';
 
 export const ContentContext = React.createContext();
 
@@ -16,7 +17,7 @@ const ContentProvider = ({children}) => {
 
   return (
    <ContentContext.Provider value={content}>
-     {content ? children : <div>...loading</div>}
+     {content ? children : <Preloader />}
    </ContentContext.Provider>
   )
 }
