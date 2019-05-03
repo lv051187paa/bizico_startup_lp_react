@@ -5,6 +5,8 @@ import axios from 'axios';
 
 import { Preloader } from '../components/Preloader';
 
+import {Preloader} from '../components/Preloader';
+
 export const ContentContext = React.createContext();
 
 const ContentProvider = ({children}) => {

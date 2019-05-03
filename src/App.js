@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Header, Competencies, Advantages, About, Cases, Workflow, Contacts, Footer } from "./sections";
-import Modal from './components/Modal';
+// import Modal from './components/Modal';
 import CookiesWarn from './components/cookies/CookiesWarn';
 
 const App = () => {
