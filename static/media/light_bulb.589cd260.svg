@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.836" height="70.339" viewBox="0 0 60.836 70.339" data-llp-composed="true" id="light_bulb" class="lazy-line-painter">
+  <g id="Group_3097" data-name="Group 3097" transform="translate(-21.933 -7.627)">
+    <g id="handle" transform="translate(43.498 55.121)" opacity="0">
+      <path id="Path_2454" data-name="Path 2454" d="M49.969,69.528c-.056.438-1.235,10.984,6.281,16.392.446.321,6.572,4.581,12.706,2.154.959-.379,4.817-1.906,5.556-5.549.586-2.88-.874-6.6-3.84-7.579a5.481,5.481,0,0,0-4.716.725,6.925,6.925,0,0,0-2.631,6.8c2.308,6.769,13.9,10.254,24.816,8.345" fill="none" transform="translate(-49.87 -69.528)" stroke-dasharray="1.973 2.96" fill-opacity="0" style=""/>
+    </g>
+    <g id="bulbs" transform="translate(31.974 17.668)">
+      <g id="Group_3096" data-name="Group 3096">
+        <path id="Path_2455" data-name="Path 2455" d="M34.775,32.093a11.623,11.623,0,1,1,20.514,7.482,10.326,10.326,0,0,0-2.433,6.654v1.361H39.941V46.23a10.3,10.3,0,0,0-2.435-6.654A11.576,11.576,0,0,1,34.775,32.093Z" transform="translate(-34.775 -20.47)" fill="none" stroke="#9e181a" stroke-width="2" fill-opacity="0" style=""/>
+        <path id="Path_2456" data-name="Path 2456" d="M44.125,61.161h7.749a2.584,2.584,0,0,0,2.583-2.583V55.995H41.542v2.583A2.583,2.583,0,0,0,44.125,61.161Z" transform="translate(-36.376 -28.874)" fill="none" stroke="#9e181a" stroke-width="2" fill-opacity="0" style=""/>
+        <path id="Path_2457" data-name="Path 2457" d="M44.925,64.053a3.874,3.874,0,0,0,7.749,0V62.762H44.925Z" transform="translate(-37.176 -30.475)" fill="none" stroke="#9e181a" stroke-width="2" fill-opacity="0" style=""/>
+      </g>
+    </g>
+    <g id="rays" transform="translate(22.933 8.627)">
+      <line id="Line_166" data-name="Line 166" y1="5.167" transform="translate(20.664)" fill="none" data-llp-id="light_bulb-4" data-llp-duration="400" data-llp-delay="800" fill-opacity="0" style=""/>
+      <line id="Line_167" data-name="Line 167" x1="3.654" y1="3.652" transform="translate(6.052 6.054)" fill="none" data-llp-id="light_bulb-5" data-llp-duration="400" data-llp-delay="400" fill-opacity="0" style=""/>
+      <line id="Line_168" data-name="Line 168" x1="5.167" transform="translate(0 20.665)" fill="none" data-llp-id="light_bulb-6" data-llp-duration="400" data-llp-delay="0" fill-opacity="0" style=""/>
+      <line id="Line_169" data-name="Line 169" y1="3.652" x2="3.652" transform="translate(31.623 6.054)" fill="none" data-llp-id="light_bulb-7" data-llp-duration="400" data-llp-delay="1200" fill-opacity="0" style=""/>
+      <line id="Line_170" data-name="Line 170" x2="5.164" transform="translate(36.162 20.665)" fill="none" data-llp-id="light_bulb-8" data-llp-duration="400" data-llp-delay="1600" fill-opacity="0" style=""/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,353 @@
+{
+  "srcPath": "publicImg/thumb",
+  "header": {
+    "title": "WHERE YOUR IDEAS BECOME REALITY",
+    "description": "We are a team of experienced software engineers that enjoy working with you and transforming your ideas into software solutions for your European and US customers"
+  },
+  "competencies": {
+    "title": "WHAT DO WE DO?",
+    "description": "DELIVERING VALUE AND QUALITY WITH DEDICATED SOFTWARE DEVELOPMENT TEAMS",
+    "items": [
+      {
+        "id": "1",
+        "icon": "thumb",
+        "text": "Working together in teams with our senior engineers you are always in direct control of the scope, time, budget, and quality of your project."
+      },
+      {
+        "id": "2",
+        "icon": "pc",
+        "text": "You are able to focus on your solution requirements while we take care of the development and testing."
+      },
+      {
+        "id": "3",
+        "icon": "balance",
+        "text": "It is our responsibility to deliver quality results in the shortest period of time to you and your clients."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "WHY WORK WITH US?",
+    "items": [
+      {
+        "id": "1",
+        "icon": "COMMITMENT",
+        "title": "COMMITMENT ",
+        "text": "Starting from the first project we are committed to deliver you measurable results and business value."
+      },
+      {
+        "id": "2",
+        "icon": "TRANSPARENCY",
+        "title": "TRANSPARENCY OF EXPENSES",
+        "text": "No financial risks for you on the initial project with us. You provide the scope, we return you a fixed price quote."
+      },
+      {
+        "id": "3",
+        "icon": "FIXED_TIME_FRAME",
+        "title": "FIXED TIME FRAME",
+        "text": "You can count on our project plan with a fixed time frame based on your detailed requirements. Planning your development roadmap gets much easier."
+      },
+      {
+        "id": "4",
+        "icon": "DIRECT",
+        "title": "DIRECT COMMUNICATION",
+        "text": "You get direct access to every member of your team. Direct talks bring you more efficient delivery and higher value."
+      },
+      {
+        "id": "5",
+        "icon": "NEW_technology",
+        "title": "NEW TECHNOLOGY",
+        "text": "You can save time by keeping up with the latest technology developments."
+      },
+      {
+        "id": "6",
+        "icon": "TECHNICAL",
+        "title": "TECHNICAL BACKGROUND",
+        "text": "Work with quality specialists who are IT trained, experienced and with certified competence."
+      },
+      {
+        "id": "7",
+        "icon": "FOCUS",
+        "title": "FOCUS",
+        "text": "Let our teams concentrate on the more complex technical tasks while you can stay focused on your core business."
+      }
+    ]
+  },
+  "about": {
+    "title": "About us",
+    "historyList": [
+      {
+        "id": "1",
+        "text": "Founded in 2009"
+      },
+      {
+        "id": "2",
+        "text": "50+ team members"
+      },
+      {
+        "id": "3",
+        "text": "90% of employees have higher education"
+      },
+      {
+        "id": "4",
+        "text": "Upper-Intermediate English level"
+      },
+      {
+        "id": "5",
+        "text": "Our reputation and high quality service are our main values"
+      },
+      {
+        "id": "6",
+        "text": "Quick feedback is a part of our corporate culture"
+      },
+      {
+        "id": "7",
+        "text": "Ukraine is one of the top countries for software development"
+      },
+      {
+        "id": "8",
+        "text": "European culture and mentality"
+      },
+      {
+        "id": "9",
+        "text": "Experience helps you to save your time and money"
+      },
+      {
+        "id": "10",
+        "text": "Understand and help solve client’s problems"
+      }
+      
+    ]
+  },
+  "cases": {
+    "title": "OUR CASES",
+    "caseList": [
+      {
+        "id": "1",
+        "location": "USA",
+        "idea": "Develop a platform that can create presentations, manage sales and inventory, provide SMS campaign and integrate POS system for each separate trade point. Android kiosk is designed to use in trade points via Android tablet and remote managing using web application. Application works in offline mode using Bluetooth and Wi-Fi Direct printing functionality and online using WebSocket protocol.",
+        "solutions": "Divide the project into two parts: 1)Android kiosk application 2)Admin Panel for managing content",
+        "technologies": {
+          "Backend": "Node.js, Express, PostgreSQL, REST, WebSocket",
+          "Web_Frontend": "JWT, React.js, Redux, WebSocket",
+          "Android": "RxPermissions, RxJava, RxAndroid, RxBus, Bluetooth, Retrofit2 та Okhttp3, Okio, Glide",
+          "Tools": "Jira, Tempo, Confluence, Slack, Github",
+          "Intergrations": "AWS (EC2, S3, RDS), Twilio, Sendgrid"
+        },
+        "slides": [
+          {
+            "id": 1,
+            "slideName": "bizico"
+          },
+          {
+            "id": 2,
+            "slideName": "webmore"
+          },
+          {
+            "id": 3,
+            "slideName": "questgames"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "location": "Germany",
+        "idea": "Create an application that will help with your hotel experience and satisfy all your needs. Search for hotels, book rooms, pay and order services using this app with no need to go to reception.",
+        "solutions": "Create iOS and Android application, Progressive Web Apps (PWA) and Admin panel that would help with this functionality.",
+        "technologies": {
+          "Backend": "Ruby on rails, PostgreSQL, Redis, Elasticsearch",
+          "Mobile_(iOS,_Android)": "React, React-native, React-native-web",
+          "Tools": "Microsoft Teams, Skype for Business, Slack, Redmine, Gitlab",
+          "Integrations": "Microsoft Azure, Firebase, Google Maps API, GTX messaging SMS API, HTNG Infor, Infor HMS, Protel Voyager, Wirecard, Stripe"
+        },
+        "slides": [
+          {
+            "id": 1,
+            "slideName": "bizico"
+          },
+          {
+            "id": 2,
+            "slideName": "webmore"
+          },
+          {
+            "id": 3,
+            "slideName": "questgames"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "location": "USA",
+        "idea": "Create a mobile app that provides different selections to people who enjoy nightlife. Users choose the coolest bars to visit by viewing their details, receive discounts and free Uber rides home. It is also possible to pay for orders through the app. Venues, for their part, can advertise themselves and let the users know about additional discounts. It allows a bar representative to  know visitors better by collecting and displaying statistics of their orders.",
+        "solutions": "Create IOS and Android applications",
+        "technologies": {
+          "Backend": "Node.js, Express.js, bookshelf.js, knex.js, Microservices, GraphQL, REST, PostgreSQL, Redis",
+          "iOS": "Swift 4, Clean Swift Architecture, RestAPI, Uber API, Firebase, Facebook, SDK, GIT, iBeacon, Moya (Networking), CoreLocation (GPS, Beacons), SnapKit (Layout), UberCore/UberRides (own implementation)",
+          "Android": "Java Android, Butterknife, AndroidRx, Eventbus, Retrofit2, Picasso, ExoPlayer, AltBeacons SDK",
+          "Web_Frontend": "JavaScript, React, React Apollo, Redux, HTML5, CSS, SASS",
+          "Tools": "Jira, Confluence, Atlassian Portfolio, Hangouts, Gliffy, GitHub, Realtimeboard, Zeplin",
+          "Integrations": "AWS (S3, EC2), Firebase, Sendgrid, Sentry, Facebook API, Uber API, Stripe, Google Maps/Places, Google Play, Twitter SDK, ZendeskSDK, Mixpanel, Branch.io, Crashlytics"
+        },
+        "slides": [
+          {
+            "id": 1,
+            "slideName": "bizico"
+          },
+          {
+            "id": 2,
+            "slideName": "webmore"
+          },
+          {
+            "id": 3,
+            "slideName": "questgames"
+          }
+        ]
+      }
+    ]
+  },
+  "workflow": {
+    "title": "WHY WORK WITH US?",
+    "items": [
+      {
+        "id": "1",
+        "title": "REQUIREMENTS DEFINITION",
+        "icon": "requirements",
+        "content": [
+          {
+            "id": "1",
+            "text": "You come up with an idea. We implement it."
+          },
+          {
+            "id": "2",
+            "text": "Your idea gets transformed into technical requirements and documentation."
+          },
+          {
+            "id": "3",
+            "text": "We’ll schedule a meeting. It’s important for you to know who you are trusting with your idea."
+          },
+          {
+            "id": "4",
+            "text": "You get a technical consultation on how to develop it further."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "GETTING READY TO START",
+        "icon": "ready",
+        "content": [
+          {
+            "id": "1",
+            "text": "Developers team led by PM starts working on the project."
+          },
+          {
+            "id": "2",
+            "text": "Meanwhile you continue developing  other aspects of your business."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "ESTIMATION PROCESS",
+        "icon": "estimation",
+        "content": [
+          {
+            "id": "1",
+            "text": "Our team estimates your project. You get clear understanding of expenses and timelines."
+          },
+          {
+            "id": "2",
+            "text": "You receive your first project prototype."
+          },
+          {
+            "id": "3",
+            "text": "We coordinate our action plan and set a release date."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "EXECUTION AND DELIVERY",
+        "icon": "execution",
+        "content": [
+          {
+            "id": "1",
+            "text": "Account manager keeps you in the loop about the developing process."
+          },
+          {
+            "id": "2",
+            "text": "You have regular meetings with the team. QA department starts working on your project."
+          },
+          {
+            "id": "3",
+            "text": "Release date comes and your idea starts working in real time."
+          },
+          {
+            "id": "4",
+            "text": "Bizico team continues to support your project."
+          }
+        ]
+      }
+    ]
+  },
+  "contacts": {
+    "title": "GET IN TOUCH",
+    "employees": [
+      {
+        "id": "1",
+        "name": "Ivan Barberus",
+        "photo": "photo",
+        "position": "Sales manager in chief",
+        "socials": [
+          {
+            "id": "1",
+            "name": "linkedln",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Ivan Barberus",
+        "photo": "photo",
+        "position": "Sales manager in chief",
+        "socials": [
+          {
+            "id": "1",
+            "name": "linkedln",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "id": "3 ",
+        "name": "Ivan Barberus",
+        "photo": "photo",
+        "position": "Sales manager in chief",
+        "socials": [
+          {
+            "id": "1",
+            "name": "linkedln",
+            "link": "#"
+          }
+        ]
+      }
+    ],
+    "address": [
+      {
+        "country": "POLAND",
+        "phone": "+48 883 332 342",
+        "location": "GROW Holding Spz.o.o., \n ul. Francizka Klimczaka 8A. lok.69. \n 02-797 Warszawa, Poland"
+      },
+      {
+        "country": "UKRAINE",
+        "phone": "+38 050 678 5686",
+        "location": "Holovna str 243  \n 58000 Chernivtsi, Ukraine",
+        "email": "info@bizico.com"
+      },
+      {
+        "country": "GERMANY",
+        "email": "christian.kuhr@bizico.com"
+      }
+    ]
+  }
+}
