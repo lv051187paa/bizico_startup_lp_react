@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import SectionTitle from '../../components/SectionTitle';
 
 const CookiesText = ({showToggle}) => {
@@ -38,6 +39,15 @@ const CookiesText = ({showToggle}) => {
 
       </div>
   )
+};
+
+CookiesText.propTypes = {
+  showToggle: PropTypes.bool,
 }
+
+CookiesText.defaultProps = {
+  showToggle: false,
+}
+
 
 export default CookiesText;

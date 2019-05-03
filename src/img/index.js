@@ -16,6 +16,14 @@ import estimation from "./estimation.svg";
 import execution from "./execution.svg";
 import photo from './photo.png';
 import linkedln from './linkedLn.svg';
+import bizico from './cases/bizico.jpg';
+import webmore from './cases/webmore.jpg';
+import questgames from './cases/questgames.jpg';
+import b from './preloader/b.svg';
+import i from './preloader/i.svg';
+import z from './preloader/z.svg';
+import c from './preloader/c.svg';
+import o from './preloader/o.svg';
 
 export const blocks = {
   thumb,
@@ -45,4 +53,14 @@ export const photoes = {
 
 export const socialIcons = {
   linkedln
+};
+
+export const caseSlides = {
+  bizico,
+  webmore,
+  questgames,
+};
+
+export const letters = {
+  b, i, z, c, o
 };

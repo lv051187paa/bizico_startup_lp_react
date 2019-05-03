@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import PropTypes from 'prop-types';
 import {createPortal} from 'react-dom';
 import usePortal from '../hooks/usePortal';
 
@@ -12,5 +13,14 @@ const Modal = ({root, component, initialVisibile}) => {
     target,
   );
 };
+
+Modal.propTypes = {
+  root: PropTypes.string.isRequired,
+  component: PropTypes.oneOfType([
+    PropTypes.func,
+    PropTypes.node,
+  ]).isRequired,
+  initialVisibile: PropTypes.bool.isRequired,
+}
 
 export default Modal;

@@ -1,0 +1,21 @@
+.ant-drawer{
+  &-content-wrapper{
+    max-width: 100%;
+  }
+  &-header {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: $header_height;
+  }
+}
+
+.ant-page-header {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+
+  &-title-view {
+    flex: 1;
+    text-align: center;
+  }
+}

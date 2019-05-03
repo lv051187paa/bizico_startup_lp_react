@@ -132,7 +132,21 @@
           "Android": "RxPermissions, RxJava, RxAndroid, RxBus, Bluetooth, Retrofit2 та Okhttp3, Okio, Glide",
           "Tools": "Jira, Tempo, Confluence, Slack, Github",
           "Intergrations": "AWS (EC2, S3, RDS), Twilio, Sendgrid"
-        }
+        },
+        "slides": [
+          {
+            "id": 1,
+            "slideName": "bizico"
+          },
+          {
+            "id": 2,
+            "slideName": "webmore"
+          },
+          {
+            "id": 3,
+            "slideName": "questgames"
+          }
+        ]
       },
       {
         "id": "2",
@@ -144,7 +158,21 @@
           "Mobile_(iOS,_Android)": "React, React-native, React-native-web",
           "Tools": "Microsoft Teams, Skype for Business, Slack, Redmine, Gitlab",
           "Integrations": "Microsoft Azure, Firebase, Google Maps API, GTX messaging SMS API, HTNG Infor, Infor HMS, Protel Voyager, Wirecard, Stripe"
-        }
+        },
+        "slides": [
+          {
+            "id": 1,
+            "slideName": "bizico"
+          },
+          {
+            "id": 2,
+            "slideName": "webmore"
+          },
+          {
+            "id": 3,
+            "slideName": "questgames"
+          }
+        ]
       },
       {
         "id": "3",
@@ -158,7 +186,21 @@
           "Web_Frontend": "JavaScript, React, React Apollo, Redux, HTML5, CSS, SASS",
           "Tools": "Jira, Confluence, Atlassian Portfolio, Hangouts, Gliffy, GitHub, Realtimeboard, Zeplin",
           "Integrations": "AWS (S3, EC2), Firebase, Sendgrid, Sentry, Facebook API, Uber API, Stripe, Google Maps/Places, Google Play, Twitter SDK, ZendeskSDK, Mixpanel, Branch.io, Crashlytics"
-        }
+        },
+        "slides": [
+          {
+            "id": 1,
+            "slideName": "bizico"
+          },
+          {
+            "id": 2,
+            "slideName": "webmore"
+          },
+          {
+            "id": 3,
+            "slideName": "questgames"
+          }
+        ]
       }
     ]
   },

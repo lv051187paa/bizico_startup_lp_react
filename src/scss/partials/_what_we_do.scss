@@ -20,6 +20,10 @@
       font-size: 2.2rem;
     }
 
+    @include set_media(large){
+      font-size: 1.5rem;
+    }
+
     @include set_media(mobile){
       font-size: 1.15rem;
     }
@@ -30,7 +34,7 @@
     justify-content: center;
     margin-top: 30px;
 
-    @include set_media(mobile){
+    @include set_media(small_tablet){
       flex-wrap: wrap;
     }
   }
@@ -47,7 +51,7 @@
     @extend %list_item;
 
     &:first-child{
-      @include set_media(mobile){
+      @include set_media(small_tablet){
         min-width: 100%;
         padding: 5px 14px;
         margin-bottom: 15px;
@@ -61,7 +65,7 @@
       margin: auto;
     }
 
-    @include set_media(mobile){
+    @include set_media(small_tablet){
       padding: 20px 10px;
       width: 50%;
     }

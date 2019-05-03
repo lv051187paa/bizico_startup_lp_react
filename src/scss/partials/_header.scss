@@ -33,9 +33,13 @@
       max-width: 760px;
       margin-top: 270px;
 
+      @include set_media(small_tablet) {
+        margin-top: 105px;
+        color: get_color(title);
+      }
+
       @include set_media(mobile) {
         margin-top: 35px;
-        color: get_color(title);
       }
     }
 
@@ -43,8 +47,11 @@
       @extend %section_description;
       margin-top: 55px;
 
-      @include set_media(mobile){
+      @include set_media(small_tablet){
         color: get_color(accent);
+      }
+
+      @include set_media(mobile){
         padding: 0 45px;
         margin-top: 40px;
       }
@@ -63,6 +70,10 @@
         width: 535px;
       }
 
+      @include set_media(small_tablet) {
+        width: 300px;
+      }
+
       @include set_media(mobile){
         display: none;
       }
@@ -70,6 +81,11 @@
 
     &-action {
       margin-left: 30px;
+
+      @include set_media(small_tablet){
+        padding-left: 15px;
+        padding-right: 15px;
+      }
 
       @include set_media(mobile){
         display: none;

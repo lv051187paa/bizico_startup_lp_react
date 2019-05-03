@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {Form} from 'react-final-form';
 import FormInput from './formComponents/FormInput'
 import Button from './formComponents/Button';
@@ -17,5 +18,13 @@ const FeedbackForm = ({formClass}) => (
     )}
   />
 );
+
+FeedbackForm.propTypes = {
+  formClass: PropTypes.string,
+}
+
+FeedbackForm.defaultProps = {
+  formClass: '',
+}
 
 export default FeedbackForm;

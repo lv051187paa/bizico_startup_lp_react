@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Field } from 'react-final-form';
 
 import { error } from '../../../services/validations';
@@ -19,5 +20,18 @@ const FormInput = ({name, className, placeholder, validate}) => {
     </Field>
   )
 };
+
+FormInput.propTypes = {
+  name: PropTypes.string.isRequired,
+  className: PropTypes.string,
+  placeholder: PropTypes.string,
+  validate: PropTypes.func,
+};
+
+FormInput.defaultProps = {
+  className: '',
+  placeholder: '',
+  validate: () => {}
+}
 
 export default FormInput;

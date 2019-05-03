@@ -1,0 +1,37 @@
+.ant-carousel{
+
+  & .slick-list{
+    min-height: 100% !important;
+  }
+
+  & .slick-slide {
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .slick-dots{
+
+    height: auto;
+    bottom: 10px;
+
+    & li {
+
+      & button{
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+        border: 1px solid get_color(sliderDots);
+        opacity: 1 !important;
+      }
+
+
+      &.slick-active{
+
+        & button{
+          background: get_color(sliderDots);
+        }
+
+      }
+    }
+  }
+}

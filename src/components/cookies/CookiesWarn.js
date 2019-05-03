@@ -4,12 +4,17 @@ import Close from '../../img/cross.svg';
 import CookiesText from './CookiesText';
 import { Modal } from 'antd';
 
-const CookiesWarn = ({showToggle}) => {
+const CookiesWarn = () => {
   const [showModal, setShowModal] = useState( false );
-  const toggleModal = () => setShowModal( !showModal )
+  const [showCookieWarn, setshowCookieWarn] = useState( !localStorage['cookies_accepted'] );
+  const toggleModal = () => setShowModal( !showModal );
+  const showToggle = () => {
+    setshowCookieWarn(false);
+    localStorage['cookies_accepted'] = true;
+  }
   return (
-    <div className="cookies">
-      <img className="close" src={Close} alt="" onClick={showToggle}/>
+    <div className="cookies" style={{display: !showCookieWarn && 'none'}}>
+      <img className="close" src={Close} alt="" onClick={() => setshowCookieWarn(false)}/>
       <div className="container">
         <h4>THIS WEBSITE USES COOKIES</h4>
         <p>

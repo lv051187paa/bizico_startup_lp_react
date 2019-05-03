@@ -23,7 +23,7 @@
     @extend %list_item;
 
     &:first-child {
-      @include set_media(mobile) {
+      @include set_media(small_tablet) {
         min-width: 100%;
       }
     }
@@ -35,10 +35,13 @@
       padding: 20px;
     }
 
-    @include set_media(mobile) {
+    @include set_media(small_tablet) {
       max-width: calc(50% - 14px);
-      padding: 20px 5px;
       align-self: stretch;
+    }
+
+    @include set_media(mobile) {
+      padding: 20px 5px;
     }
 
     & img {
@@ -57,8 +60,12 @@
         transform: translateX(2px);
       }
 
-      @include set_media(mobile) {
+      @include set_media(tablet) {
         transform: translateX(0);
+      }
+
+      @include set_media(mobile) {
+
         color: map-get($color, accent);
         font-size: 0.9375rem;
       }
@@ -73,7 +80,7 @@
       opacity: 0;
       transition: $transition;
 
-      @include set_media(mobile) {
+      @include set_media(tablet) {
         transform: translateY(0);
         opacity: 1;
         margin-top: 25px;
